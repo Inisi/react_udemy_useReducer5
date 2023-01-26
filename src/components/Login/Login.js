@@ -59,7 +59,6 @@ const Login = (props) => {
 
     return () => {
       console.log("CLEANUP");
-      console.log("test git");
       clearTimeout(identifier);
     };
   }, [emailIsValid, passwordIsValid]);
